@@ -1,0 +1,190 @@
+p{
+  color: #8f8f8f;
+}
+
+
+h3{
+  font-size: 1.5rem;
+
+}
+
+body{
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900;
+
+}
+
+/* heading */
+.big-heading{
+  font-family: "Montserrat",sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title{
+  text-align: left;
+}
+
+
+.fa-paw{
+  color:black;
+}
+
+.fa-paw:hover{
+  color:violet;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+.download-b{
+  margin:5% 3% 5% 0;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+}
+
+.dig{
+  position: relative;
+}
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.faeture-box{
+  padding: 5%;
+}
+
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:  #ff4c68;
+}
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin-top: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-log{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.colon{
+  padding: 3% 2%;
+}
+
+@media (max-width: 992px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+#cta{
+  padding: 7% 15%;
+}
+
+
+#footer{
+  padding: 7% 15%;
+}
+
+.social-w{
+  margin: 20px 10px;
+}
+
+.spike{
+  margin-top: 20px
+}
